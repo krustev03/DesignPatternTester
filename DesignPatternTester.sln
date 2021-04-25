@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "FactoryMet
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "Prototype\Prototype.csproj", "{32D6FE15-B3E7-42D6-9238-0429DF558AA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{B1719372-8800-45B8-BF6A-DED0C2D8FF43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.csproj", "{B1719372-8800-45B8-BF6A-DED0C2D8FF43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{FEA276DA-8040-41F4-B054-208095106DF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{FEA276DA-8040-41F4-B054-208095106DF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{A2AF0A64-B146-4D34-B211-932A45D036A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{FEA276DA-8040-41F4-B054-208095106DF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEA276DA-8040-41F4-B054-208095106DF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEA276DA-8040-41F4-B054-208095106DF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2AF0A64-B146-4D34-B211-932A45D036A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2AF0A64-B146-4D34-B211-932A45D036A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2AF0A64-B146-4D34-B211-932A45D036A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2AF0A64-B146-4D34-B211-932A45D036A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
